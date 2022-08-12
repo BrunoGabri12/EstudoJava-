@@ -1,9 +1,11 @@
 package cap8.ex2;
-import cap8.ex2.product;
-import java.*;
-
 public class main {
-    product acai = new product("Açaí", 10.90,5);
+    static product acai = new product("Açaí", 10.90,5);
 
-    System.out.println(acai);
+    public static void main (String[] args){
+
+        System.out.println(acai);
+
+    }
+    
 }

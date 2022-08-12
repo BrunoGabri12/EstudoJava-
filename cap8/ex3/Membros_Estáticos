@@ -1,0 +1,9 @@
+Membros Estáticos - São membros que fazem sentido independentemente de objetos. 
+Um classe que possui somente membros estáticos pode sert uma classe estática, não podendo ser instanciada. Exemplo >> Math 
+
+Aplicações Comuns: 
+    Classes Utilitárias 
+    Declaração de Constantes 
+
+final = constantes
+Não é possivel chamar um método que não é estático dentro de um método estático 

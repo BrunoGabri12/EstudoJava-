@@ -1,4 +1,4 @@
-package cap8;
+package cap8.ex1;
 
 
 public class triangulo {
