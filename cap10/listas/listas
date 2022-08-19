@@ -1,0 +1,18 @@
+# lista = estrutura de dados ordenados
+
+
+Classes que implementam listas: ArrayList, LinkedList 
+
+ArrayLisy - otimizada em relação ao acesso sequencial rr
+
+# Vantagens - Tamanho variavél, facilidade para se realizar inserções e deleções 
+# Desvantagens - Acesso sequencial 
+
+Métodos: 
+size()
+add(Obj) , add(int , obj)
+remove(obj), remove(int), removeIf(Predicate)
+indexOf(obj), lasIndexOf(obj)
+  
+
+Listas não aceitam tipos primitivos 
