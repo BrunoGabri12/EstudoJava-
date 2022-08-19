@@ -1,0 +1,48 @@
+# Tipo referência vs Tipo valor 
+
+um objeto quando instanciado é alocado no heap, a variavel está na stack
+o endereço de memória com os valores do objeto 
+
+p1 = new Product ("TV" , 900, 0); 
+p1 é um endereço de onde o Product está reservado no heap 
+p1 está no Stack 
+
+objetos podem ser null 
+
+
+Tipos primitos são tipo valor 
+estão reservadas na Stack; z
+ 
+
+ valores padrão
+ numeros: 0
+ boolean: false
+ char: caractere código 0 
+ objeto: 0 
+
+
+ #desalocação de memória - garbage collector 
+
+ Gargabe Collector = gerenciamento do heap. Monitora os objetos e desalocando os que não estão mais sendo utilizados 
+
+ Desaloca objetos que estão sem referencias
+
+ desalocação de memória por escopo == 
+    desaloca assim que o escopo finaliza. Escopos são criados na Stack e quando acaba, o escopo é eliminado 
+# Array -> alocadas de uma vez só, em um bloco contíguo de memório 
+    ## vantagens : acesso imediado ao elemento pela sua posição, sem a necessidade de percorre-lo 
+    ## desvantagens : tamanho fixo. Dificuldade de realizar inserções e deleções [[
+    ]]
+
+# boxing 
+conversão de um objeto dfo tipo valor para um objeto tipo referência compatível
+
+ex: 
+int x = 20 
+Object obj = x; 
+
+# Wrapper Classes 
+Classes equivalentes aos tipos primitivos 
+feitas para que o boxing e o umboxing seja feito de uma forma natural 
+
+wrapper class naturalmente aceita valor nulo. Exemplo  - data de nascimento como valor nulo 

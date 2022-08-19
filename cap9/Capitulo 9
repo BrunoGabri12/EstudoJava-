@@ -1,0 +1,12 @@
+Capitolo referente a construtures,this, sobrecarga e encapsulamento 
+
+
+
+Encapsulamento 
+
+- atributos devem ser privados e acessados por meio de get e set 
+
+modificadores de acesso: 
+private - só membros da mesma classe 
+protected - membro só pode ser acessado no mesmo pacote, bem como em subclasses  
+(nada)  - só membros do mesmo pacote 
