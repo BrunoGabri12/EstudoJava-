@@ -1,0 +1,20 @@
+# Nivelamento Git 
+* Commit  -> cada commit possui um código unico. 
+## Configurando user 
+* git config --global user.name "nome"
+* git config --global user.email "email" 
+
+
+## Configuramento de SSH para o GitHub 
+*SSH é um protocolo para comunicação de dados com segurança 
+
+* git log --oneline 
+* git status - revela arquivos modificados, arquivos adicionados e deletados
+* git staged - pode jogar apenas alguns arquivos na área de staged  
+
+
+## Git Diff - comando que mostra a diferença entre arquivos modificados 
+
+## Git checkout - modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch 
+
+* Head ultimo commit sal 
